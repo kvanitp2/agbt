@@ -1,0 +1,38 @@
+.nav .active {
+    font-weight: bold;
+    color: rgb(133, 15, 172);
+}
+
+.container .card {
+    display: none;
+}
+
+.container .card.active {
+    display: flex;
+}
+
+.slider-outer {
+    position: relative;
+}
+
+.navigation {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle {
+    width: 14px;
+    height: 14px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: .5rem;
+    cursor: pointer;
+}
+.circle.active{
+    background-color: black;
+}
